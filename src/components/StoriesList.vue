@@ -12,7 +12,7 @@
         <div class="row">
             <div v-if="loading">Loading...</div>
             <button v-else-if="currentPage !== lastPage" @click="loadMore" class="btn btn-primary">Load More</button>
-            <div v-else>No stories found.</div>
+            <div v-else>End of stories list</div>
         </div>
     </div>
 </template>
